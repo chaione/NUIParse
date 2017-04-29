@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DB448D1E1EB4392D00EA75CB"
-               BuildableName = "NUIParse_iOS.framework"
-               BlueprintName = "NUIParse_iOS"
+               BlueprintIdentifier = "DB448F1C1EB43D9C00EA75CB"
+               BuildableName = "NUIParse.framework"
+               BlueprintName = "NUIParse"
                ReferencedContainer = "container:NUIParse_iOS.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DB448D1E1EB4392D00EA75CB"
-            BuildableName = "NUIParse_iOS.framework"
-            BlueprintName = "NUIParse_iOS"
+            BlueprintIdentifier = "DB448F1C1EB43D9C00EA75CB"
+            BuildableName = "NUIParse.framework"
+            BlueprintName = "NUIParse"
             ReferencedContainer = "container:NUIParse_iOS.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -63,9 +63,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DB448D1E1EB4392D00EA75CB"
-            BuildableName = "NUIParse_iOS.framework"
-            BlueprintName = "NUIParse_iOS"
+            BlueprintIdentifier = "DB448F1C1EB43D9C00EA75CB"
+            BuildableName = "NUIParse.framework"
+            BlueprintName = "NUIParse"
             ReferencedContainer = "container:NUIParse_iOS.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
