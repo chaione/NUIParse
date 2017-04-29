@@ -327,8 +327,6 @@
 		5419721C188F9A54004240B4 /* NUIPRegexpRecogniserTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NUIPRegexpRecogniserTest.m; sourceTree = "<group>"; };
 		DA2B1DF61566B704002FDBD7 /* NUIPSTAssertionsTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NUIPSTAssertionsTests.h; sourceTree = "<group>"; };
 		DA2B1DF71566B704002FDBD7 /* NUIPSTAssertionsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NUIPSTAssertionsTests.m; sourceTree = "<group>"; };
-		DB448C101EB4024900EA75CB /* NUIParse_iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NUIParse_iOS.h; sourceTree = "<group>"; };
-		DB448C111EB4024900EA75CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -377,7 +375,6 @@
 				1FC18284139BA4460027F597 /* CompanionGuides */,
 				1F0E88FF130462F300537D04 /* NUIParse */,
 				1F0E8910130462F300537D04 /* NUIParseTests */,
-				DB448C0F1EB4024900EA75CB /* NUIParse_iOS */,
 				1F0E88F8130462F300537D04 /* Frameworks */,
 				1F0E88F7130462F300537D04 /* Products */,
 			);
@@ -640,15 +637,6 @@
 				1FC18286139BA47D0027F597 /* NUIParse-template.md */,
 			);
 			path = CompanionGuides;
-			sourceTree = "<group>";
-		};
-		DB448C0F1EB4024900EA75CB /* NUIParse_iOS */ = {
-			isa = PBXGroup;
-			children = (
-				DB448C101EB4024900EA75CB /* NUIParse_iOS.h */,
-				DB448C111EB4024900EA75CB /* Info.plist */,
-			);
-			path = NUIParse_iOS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
