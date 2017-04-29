@@ -6,6 +6,8 @@
 //  Copyright 2011 In The Beginning... All rights reserved.
 //
 
+#import "NUIParse_iOS.h"
+
 #import "NUIPTokeniser.h"
 
 #import "NUIPTokenStream.h"
@@ -13,7 +15,7 @@
 #import "NUIPTokenRecogniser.h"
 #import "NUIPKeywordRecogniser.h"
 #import "NUIPNumberRecogniser.h"
-#import "NUIPWhitespaceRecogniser.h"
+#import "NUIPWhiteSpaceRecogniser.h"
 #import "NUIPIdentifierRecogniser.h"
 #import "NUIPQuotedRecogniser.h"
 #import "NUIPRegexpRecogniser.h"
@@ -40,3 +42,20 @@
 #import "NUIPLALR1Parser.h"
 
 #import "NUIPJSONParser.h"
+
+#import "NSArray+NUIFunctional.h"
+#import "NSSet+NUIFunctional.h"
+#import "NUIPGrammarInternal.h"
+#import "NUIPGrammarPrivate.h"
+#import "NUIPItem.h"
+#import "NUIPLR1Item.h"
+#import "NUIPRHSItem+Private.h"
+#import "NUIPRHSItem.h"
+#import "NUIPRHSItemResult.h"
+#import "NUIPRule+Internal.h"
+#import "NUIPShiftAction.h"
+#import "NUIPShiftReduceAction.h"
+#import "NUIPShiftReduceActionTable.h"
+#import "NUIPShiftReduceGotoTable.h"
+#import "NUIPShiftReduceParserProtectedMethods.h"
+#import "NUIPShiftReduceState.h"
