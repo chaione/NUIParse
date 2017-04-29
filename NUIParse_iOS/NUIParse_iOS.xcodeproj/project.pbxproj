@@ -100,7 +100,6 @@
 
 /* Begin PBXFileReference section */
 		DB448D221EB4392D00EA75CB /* NUIParse_iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NUIParse_iOS.h; sourceTree = "<group>"; };
-		DB448D231EB4392D00EA75CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DB448D2B1EB4395500EA75CB /* NUIPJSONParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NUIPJSONParser.h; sourceTree = "<group>"; };
 		DB448D2C1EB4395500EA75CB /* NUIPJSONParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NUIPJSONParser.m; sourceTree = "<group>"; };
 		DB448D2F1EB4395500EA75CB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
@@ -190,7 +189,6 @@
 		DB448D8B1EB4395500EA75CB /* NUIPWhiteSpaceToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NUIPWhiteSpaceToken.h; sourceTree = "<group>"; };
 		DB448D8C1EB4395500EA75CB /* NUIPWhiteSpaceToken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NUIPWhiteSpaceToken.m; sourceTree = "<group>"; };
 		DB448F7D1EB43D9C00EA75CB /* NUIParse.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NUIParse.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DB448F7E1EB43D9C00EA75CB /* NUIParse_iOS copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "NUIParse_iOS copy-Info.plist"; path = "/Users/yuichi/Private/Samples/iOS/Me/NUIParse/NUIParse_iOS/NUIParse_iOS copy-Info.plist"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -209,7 +207,6 @@
 			children = (
 				DB448D211EB4392D00EA75CB /* NUIParse_iOS */,
 				DB448D201EB4392D00EA75CB /* Products */,
-				DB448F7E1EB43D9C00EA75CB /* NUIParse_iOS copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -238,7 +235,6 @@
 				DB448D661EB4395500EA75CB /* Syntax Tree */,
 				DB448D691EB4395500EA75CB /* Tokenisation */,
 				DB448D221EB4392D00EA75CB /* NUIParse_iOS.h */,
-				DB448D231EB4392D00EA75CB /* Info.plist */,
 			);
 			path = NUIParse_iOS;
 			sourceTree = "<group>";
@@ -695,7 +691,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "NUIParse_iOS copy-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/../NUIParse/NUIParse-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -715,7 +711,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "NUIParse_iOS copy-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/../NUIParse/NUIParse-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
